@@ -11,36 +11,18 @@
 
 ***
 
-## 1. Preámbulo
+## 1. Proyecto
 
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
-también llamado algoritmo de módulo 10, es un método de suma de verificación,
-se utiliza para validar números de identificación; tales como el IMEI de los
-celulares, tarjetas de crédito, etc.
+Es una aplicacion web que permite a un usuario validar el numero de targeta de crédito. Ademas, se eimplementa la funcionalidad para ocultar todos los digitos de una targeta menos los últimos cuatro.
 
-Este algoritmo es simple. Obtenemos la reversa del número a verificar (que
-solamente contiene dígitos [0-9]); a todos los números que ocupan una posición
-par se les debe multiplicar por dos, si este número es mayor o igual a 10,
-debemos sumar los dígitos del resultado; el número a verificar será válido si
-la suma de sus dígitos finales es un múltiplo de 10.
+La tematica es por el pago productos de compras de una tienda de accesorios electronicos.
+
+Para la construccion de esta aplicación se utilizo las tecnologias como HTML, CSS y JavaScript.
+
+## 2. Comenzando
+
 
 ![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
-
-## 2. Resumen del proyecto
-
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
-los últimos cuatro.
-
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
-experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
-etc.
-
-Trabajando de forma individual aprenderás a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
 
 ## 3. Objetivos de aprendizaje
 
