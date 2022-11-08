@@ -22,7 +22,7 @@ Para la construccion de esta aplicación se utilizo las tecnologias como HTML, C
 ## 2. Comenzando
 
 
-![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
+![Prototipo](https://raw.githubusercontent.com/roxsyVel910/DEV002-card-validation/main/img/prototipo.png)
 
 ## 3. Objetivos de aprendizaje
 
