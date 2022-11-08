@@ -7,7 +7,58 @@
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <section class="container">
+        <div class="contenedor-producto">
+
+        </div>
+        <div class="card-container">
+          <div class="form-container ">
+            <div class="targeta">
+              <img src="../img/visa-logo.png" alt="">
+              <div class="info-card">
+                <p id="name" class="card text" >nombre del ususario</p>
+                <p id="numb-card">1234 - 3453 -3532 - 3453</p>
+              
+                <label for="" class="expiracion-date text" > expiracion date</label>
+                <p id="date">2019-20-02</p>
+                <div class="ccv-info">
+                   <label for="" class="cvv-nom text">CCV</label>
+                   <p id="ccv-card">333</p>
+                </div>
+
+              </div>
+              
+              
+
+
+            </div>
+            <form action="/" class="form ">
+              <label for="nombre" class="label">Nombre</label>
+              <input type="text" id="nombre" placeholder="platzi@example.cm" class="input input-nombre">
+      
+              <label for="number-card" class="label">NUMERO DE TARGETA</label>
+              <input type="number" name="card" tipe="card" id="number-card" placeholder="1234 - 3453 -3532 - 3453"  ondrop="return false;" onpaste="return false;"
+              onkeypress="return event.charCode>=48 && event.charCode<=57" required class="input input-id-card">
+             
+              <div class="datos">
+                <label for="fecha" class="label" >FECHA CAD</label>
+                <input type="text" id="fecha" placeholder="01/23" class="input input-id-card">
+                
+                <label for="id-card" class="label">CVV</label>
+                <input type="cvv" id="cvv" placeholder="007" class="input input-cvv">
+              </div>
+              <input type="<" value="Pagar" class="button pay-button" id="pay">
+              <p id="es-valido"></p>
+            </form>
+            
+          </div>
+          
+        </div>
+        
+        
+      </section>
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
