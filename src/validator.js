@@ -1,11 +1,23 @@
 const validator = {
 
   maskify: function (numeros) {
-      const characters = numeros.substr(-4);
+    let characters = "";
+    for (let i = 0; i < numeros.length;i++){
+        if(i < numeros.length-4){
+            characters = characters+ "#";
+           
+        }
+        else {
+            characters = characters + numeros[i]
+        }
+    }
+    return characters
+    
+      /*const characters = numeros.substr(-4);
       console.log("ocultar  " + characters);
 
-      const maskifyCharacters = numeros.substr(0, numeros.length -4).replace(/\d|[a-zA-Z]/g , "#");
-      console.log("ocultar 2" + maskifyCharacters);
+      const maskifyCharacters = numeros.substr(0, numeros.length-4).replace(/\d|[a-zA-Z]/g , "#");
+      console.log("ocultar 2" + maskifyCharacters); */
   },
 
 
@@ -13,11 +25,11 @@ const validator = {
       var array = creditCardNumber.split('').reverse()
       console.log(array);
 
-      // console.log(array);
+      
 
       //obtener posisiones par
       const newArray = array.map(function (valor, index) {
-          var newNumbers = [];
+        let newNumbers = [];
 
           if (index % 2 === 0) {
 
@@ -33,19 +45,22 @@ const validator = {
           return newNumbers;
       });
 
-      var arr = [1, 2, 3, 5, 9]
       console.log(" suma de todos   " , newArray)
       let total = newArray.reduce((a, b) => a + b)
 
       if (total % 10 === 0) {
-          console.log("numero valido")
+        console.log("verdaero");
+          return true
+          
 
       }
       else {
-          console.log("numero no valido")
+        console.log("falso")
+          return false
       }
+      
 
-      console.log(" suma de todos   " + total);
+      
 
 
       function numeroPar(mult) {
