@@ -9,10 +9,10 @@ let dateCard =document.getElementById("fecha");
 //let inputCard =document.getElementById("number-card");
 //var arrayVacio = [];
 
-inputCard.addEventListener('input', function (e) {
+/*inputCard.addEventListener('input', function (e) {
     e.target.value = e.target.value.replace(/[^\dA-Z]/g, '').replace(/(.{4})/g, '$1 ').trim();
     cardnum.innerHTML = inputCard.value;
-}); 
+}); */
 
 
 document.querySelector('#pay').onclick = function () {
