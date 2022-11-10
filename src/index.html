@@ -38,9 +38,8 @@
               <input type="text" id="nombre" placeholder="Mariana Gomez" class="input input-nombre">
       
               <label for="number-card" class="label">NUMERO DE TARGETA</label>
-              <input type="number" name="card" tipe="card" id="number-card" placeholder="1234 - 3453 -3532 - 3453"  ondrop="return false;" onpaste="return false;"
-              onkeypress="return event.charCode>=48 && event.charCode<=57" required class="input input-id-card">
-             
+              <input type="number" name="card" tipe="card" id="number-card" placeholder="1234 - 3453 -3532 - 3453"  required class="input input-id-card">
+              <p id="es-valido"></p>
               <div class="datos">
                 <label for="fecha" class="label" >FECHA CAD</label>
                 <input type="date" id="fecha" value="2023-07-22" class="input input-id-card">
@@ -49,7 +48,7 @@
                 <input type="cvv" id="cvv" placeholder="007" class="input input-cvv">
               </div>
               <input type="<" value="Pagar" class="button pay-button" id="pay">
-              <p id="es-valido"></p>
+              
             </form>
             
           </div>

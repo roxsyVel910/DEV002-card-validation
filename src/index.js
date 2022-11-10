@@ -6,7 +6,13 @@ let valido = document.querySelector('#es-valido');
 let cardnum = document.querySelector("#numb-card");
 let cvv = document.getElementById("cvv");
 let dateCard =document.getElementById("fecha");
-var arrayVacio = [];
+//let inputCard =document.getElementById("number-card");
+//var arrayVacio = [];
+
+inputCard.addEventListener('input', function (e) {
+    e.target.value = e.target.value.replace(/[^\dA-Z]/g, '').replace(/(.{4})/g, '$1 ').trim();
+    cardnum.innerHTML = inputCard.value;
+}); 
 
 
 document.querySelector('#pay').onclick = function () {
