@@ -30,4 +30,9 @@ Prototipo
 ![Prototipo](https://raw.githubusercontent.com/roxsyVel910/DEV002-card-validation/main/img/prototipo.png)
 
 
-### HTML
+## 4. Usuario
+
+ * Ingresa los datos que se piden en el formulario.
+ * Ingresando los  números de la tarjeta  arrojara si es valido o no.
+ * Se ocultara los digitos de sus numero de targeta menos los ultimos 4.
+ 

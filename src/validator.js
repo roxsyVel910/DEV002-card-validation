@@ -71,6 +71,7 @@ const validator = {
                
         let total = newArray.reduce((a, b) => a + b)
         console.log(" suma de todos   ", total)
+        
         if (total % 10 == 0) {
             console.log("verdaero");
             return true
