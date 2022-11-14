@@ -26,7 +26,7 @@ Para la construccion de esta aplicación se utilizo las tecnologias como HTML, C
 
 Prototipo
 
-
+![Prototipo 1 ](https://github.com/roxsyVel910/DEV002-card-validation/blob/main/img/protipo%201.png)
 ![Prototipo](https://raw.githubusercontent.com/roxsyVel910/DEV002-card-validation/main/img/prototipo.png)
 
 
